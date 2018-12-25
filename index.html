@@ -5,21 +5,154 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" href="/favicon.ico">
-    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
     <title>Roberto Miguel Fotógrafo</title>
-    <!-- <link href="/static/css/main.370a476c.css" rel="stylesheet"> -->
 </head>
 
 <body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!-- <script type="text/javascript" src="/static/js/main.36035961.js"></script> -->
-    DISCULPE ESTAMOS ACTUALIZANDO CONTENIDO. <br>
-    <a href="">FOTOS VIDANZA 18 DE DICIEMBRE TEATRO BROADWAY</a> <br>
-    <a href="">FOTOS DON QUIJOTE CUBA BALLET 22 DICIEMBRE TEATRO El Círculo</a> <br>
-    FOTOS ADULTOS CUBA BALLET DICIEMBRE 22 DE DICIEMBRE TEATRO El Círculo (en proceso) <br>
+    <div class="root">
+        <div>
+            <img src="img/banner1.jpg" alt="Foto portada" />
+        </div>
+        <h1>Roberto Miguel Fotógrafo</h1>
+        <h2>Recuerdos para toda la vida</h2>
+        <a href="https://www.facebook.com/robertomiguelfotos" target="_BLANK">
+            <h2>Últimos trabajos en mi Facebook</h2>
+        </a>
+        <a href="https://www.instagram.com/robertomiguelfotos/" target="_BLANK">
+            <h2>Seguime en Instagram</h2>
+        </a>
+        <div class="alert" >
+            <h3>DISCULPE ESTAMOS ACTUALIZANDO EL SITIO WEB</h3>
+        </div>
+
+        <div class='forSale'>
+
+            <div class="window" >
+                <div class="title">Eventos disponibles para comprar fotos</div>
+                <a href="https://www.dropbox.com/sh/c1n5vi81wghfm84/AADHLzEKY76vplGRTS3Rkkqwa?dl=0" target="_BLANK">
+                    <p>
+                        FOTOS VIDANZA 18 DE DICIEMBRE TEATRO BROADWAY
+                    </p>
+                </a>
+                <br>
+                <a href="https://www.dropbox.com/sh/sc0ygj4fagxgoqx/AAByvRr4GOoa0A29I25vG3ZFa?dl=0" target='_BLANK'>
+                    <p>
+                        FOTOS DON QUIJOTE CUBA BALLET - 22 DICIEMBRE TEATRO El Círculo
+                    </p>
+                </a>
+                <div class="news">
+                    <label>Próximos eventos:</label> <br />
+                    <p>
+                        FOTOS ADULTOS CUBA BALLET - 22 DE DICIEMBRE TEATRO El Círculo
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="window">
+            <div class="title">Productos disponibles</div>
+            <h2>Fotos digitales</h2>
+            <ul>
+                <li>Tamaño FULL HD 1080p</li>
+                <li>Enfocadas para verlas espléndidas en todos tus disposítivos</li>
+                <li>Archivo de gran calidad de imagen con tamaño reducido para<br> que sea ágil compartirlas</li>
+                <li>Entrega en 24 horas</li>
+            </ul>
+            <h2>Fotos impresas</h2>
+            <p>
+                Las impresiones son enviadas a un laboratorio de fotografía de primer nivel para asegurar la máxima calidad en tus fotos.
+                <br>
+                Varios formatos disponibles.
+            </p>
+        </div>
+        <div class="commonQuestion window">
+            <div class="title">Preguntas frecuentes</div>
+            <br>
+            <label>¿Cómo comprar?</label>
+            <p>
+                Las fotos de vista previa contienen un número de referencia
+                <br>
+                Enviar por email/whatsapp/facebook la lista de números e indique qué tipo de formato desea
+                según las imágenes que están a continuación.
+            </p>
+            <label>¿Cómo abonar?</label>
+            <p>
+                Pago electrónico con trasferencia con CBU o depósito en banco.
+                <br>
+                También puede solicitar abonar con otros medios en MercadoPago con 10% de recargo.
+            </p>
+            <label>¿Como es la entrega?</label>
+            <p>
+                Las fotos digitales se envían por email en 24 horas a partir de haber recibido el comprobante de pago.
+            </p>
+            <p>
+                Las fotos impresas se entregan dentro de un plazo de siete (7) días hábiles.
+                <br>
+                La entrega se pacta con el cliente.
+            </p>
+        </div>
+        <div class="images">
+            <img src="img/impresa.jpg" alt="Impresiones" /> <br>
+            <img src="img/digital.jpg" alt="Formato Digital" /> <br>
+            <img src="img/pago.jpg" alt="Pago Electrónico" /> <br>
+        </div>
+        <div>
+            <p>
+                2000 Rosario - fotografía de eventos
+            </p>
+        </div>
+    </div>
 
 </body>
+
+<style>
+.commonQuestion p {
+    font-size: 20px;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.root {
+    width: 100%;
+    text-align: center;
+}
+.root li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.root * {
+    width: 100%;
+}
+.forSale {
+    font-size: 20px;
+}
+.images img {
+    max-width: 600px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(165, 187, 228);
+    box-shadow: 5px 5px 3px #666;
+    border-radius: 15px;
+}
+
+.window {
+    border: 1px solid rgb(165, 187, 228);
+    box-shadow: 5px 5px 3px #666;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.window .title {
+    background-color: rgb(165, 187, 228);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    letter-spacing: 2px;
+}
+
+</style>
 
 </html>
