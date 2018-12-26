@@ -14,14 +14,16 @@
         <div>
             <img src="img/banner1.jpg" alt="Foto portada" />
         </div>
-        <h1>Roberto Miguel Fotógrafo</h1>
-        <h2>Recuerdos para toda la vida</h2>
-        <a href="https://www.facebook.com/robertomiguelfotos" target="_BLANK">
-            <h2>Últimos trabajos en mi Facebook</h2>
-        </a>
-        <a href="https://www.instagram.com/robertomiguelfotos/" target="_BLANK">
-            <h2>Seguime en Instagram @robertomiguelfotos</h2>
-        </a>
+        <div class="window" >
+            <h1>Roberto Miguel Fotógrafo</h1>
+            <h2>Recuerdos para toda la vida</h2>
+            <a href="https://www.facebook.com/robertomiguelfotos" target="_BLANK">
+                <h2>Últimos trabajos en mi Facebook</h2>
+            </a>
+            <a href="https://www.instagram.com/robertomiguelfotos/" target="_BLANK">
+                <h2>Seguime en Instagram @robertomiguelfotos</h2>
+            </a>
+        </div>
         <div class='forSale'>
 
             <div class="window" >
@@ -92,11 +94,11 @@
             <img src="img/impresa.jpg" alt="Impresiones" /> <br>
             <img src="img/digital.jpg" alt="Formato Digital" /> <br>
             <img src="img/pago.jpg" alt="Pago Electrónico" /> <br>
+        </div>
+        <div class="window" >
             <p>
                 Texto para seleccionar y copiar CBU: 0720718388000036110722
             </p>
-        </div>
-        <div>
             <p>
                 2000 Rosario - fotografía de eventos
             </p>
@@ -142,7 +144,10 @@ label {
     box-shadow: 5px 5px 3px #666;
     border-radius: 7px;
     overflow: hidden;
+    max-width: 700px;
+    margin: 0 auto;
     margin-bottom: 10px;
+    background-color: white;
 }
 .window .title {
     background-color: rgb(165, 187, 228);
@@ -151,6 +156,21 @@ label {
     text-align: center;
     padding: 3px;
     letter-spacing: 2px;
+}
+
+.window p {
+    padding-left: 3px;
+    padding-right: 3px;
+    word-wrap: break-word ;
+}
+
+html {
+    background: url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 </style>
