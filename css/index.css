@@ -8,7 +8,7 @@
 .topImage {
   border-radius: 10px;
   overflow: hidden;
-  opacity: 0.8;
+  opacity: 1;
 }
 label {
   font-size: 20px;
