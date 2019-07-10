@@ -55,7 +55,8 @@ label {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  padding: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   letter-spacing: 2px;
 }
 
@@ -115,4 +116,8 @@ hr {
   max-width: 900px;
   height: auto;
   border-radius: 0 0 10px 10px;
+}
+
+.comingSoon {
+  opacity: 0.3;
 }
